@@ -13,7 +13,7 @@ const dataURLs = [
 ];
 
 dataURLs.forEach(({ id, endpoint }) => {
-  updateStatus(id, "not-started", "не начато");
+  updateStatus(id, "not-started", "Default");
   document
     .querySelector(`#sbmt-${id}`)
     .addEventListener("click", () => handleFormSubmit(id, endpoint));

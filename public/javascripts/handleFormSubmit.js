@@ -19,7 +19,7 @@ export default function handleFormSubmit(id, endpoint) {
   })
     .then((response) => response.json())
     .then((data) => {
-      resetListItem(id, "success", "Данные получены");
+      resetListItem(id, "success", "Data loaded");
       document
         .querySelector("#cancel" + `-${id}`)
         .removeEventListener("click", cancelLoading);
