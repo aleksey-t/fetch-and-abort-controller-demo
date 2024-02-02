@@ -1,0 +1,126 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.status{
+  background: #333;
+  width: 20px;
+  height: 20px;
+}
+
+label{
+  display: flex;
+  font-size: .8rem;
+  color: #555;
+  padding: 5px 0;
+}
+
+.not-started{
+  background: #8a8a8a;
+}
+
+.error{
+  background: #800909;
+}
+.success{
+  background: #248814;
+
+}
+.pending{
+  background: #15609f;
+}
+.spinner{
+  width: 24px;
+    margin: 0 auto;
+}
+
+.spinner img{
+  width: 100%;
+}
+
+.hidden{
+  display: none !important;
+}
+.cancel-wrapper{
+  display: flex;
+}
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list{
+
+}
+.list-item{
+  border: solid 1px lightgrey;
+}
+
+
+/* Основные стили для таблицы */
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Стиль заголовков таблицы */
+th {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Стиль ячеек таблицы */
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Цвет фона для четных строк */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Наведение на строки таблицы */
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Стиль для заголовка таблицы и контейнера таблицы */
+h2 {
+  color: #3498db;
+}
+
+/* Стиль для общего контейнера таблицы (пример использования границы и отступа) */
+.table-container {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.td-description{
+  width: 500px;
+}
+
+.td-status{
+  width: 300px;
+}
+
+.td-loading{
+  width: 70px;
+}
+.output{
+  border: solid 1px #dedede;
+}
+.data{
+  border: solid 1px #dedede;
+  font-size: .9rem;
+  margin: 10px 0;
+  padding: 5px;
+}
